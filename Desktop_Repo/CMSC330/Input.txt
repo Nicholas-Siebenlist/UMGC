@@ -1,0 +1,21 @@
+Window "Buttons, Group, and Radio" (500, 200) Layout Flow:
+  Panel Layout Flow:
+    Panel Layout Grid (4, 1):
+      Button "Random Selection in column 1";
+      Group
+        Radio "Pick 2";
+        Radio "Pick 3";
+        Radio "Pick 4";
+      End;
+    End;
+    Panel Layout Grid (4, 1):
+      Button "Random Selection in column 2";
+      Group
+        Radio "Yellow";
+        Radio "Blue";
+        Radio "Green";
+      End;
+    End;
+  End;  
+  Button "Randomize";
+End.
